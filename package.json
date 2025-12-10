@@ -1,0 +1,22 @@
+{
+  "name": "pw_prax",
+  "version": "1.0.0",
+  "description": "Practicing some Playwright",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Timberlee/pw_prax.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Timberlee/pw_prax/issues"
+  },
+  "homepage": "https://github.com/Timberlee/pw_prax#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.56.1",
+    "@types/node": "^24.10.1"
+  }
+}

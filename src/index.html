@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Hello Title</title>
+	</head>
+	<body onload="setTimeout(addParagraph, 3000)">
+		<h1>Hello Wrold</h1>
+		<script>
+			function addParagraph(){
+				const newPara = document.createElement('p');
+				const newTextNode = document.createTextNode("I should take three seconds to load.");
+
+				newPara.appendChild(newTextNode)
+				newPara.setAttribute("id", "slowPara01");
+				document.body.appendChild(newPara)
+			}
+		</script>
+	</body>
+</html>
