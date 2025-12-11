@@ -2,8 +2,7 @@ TODO
 
 - Add baseurl to playwright.config.ts
 - Add test for "Hello Wrold" h1
-- Add additional pages to site
-- Add hyperlink tests for working and broken hyperlinks
+- Figure out syntax for actually validating hrefs (urls)
 - Add image tests for working and broken images
 - Add additional setTimeout element with variable timing (so it sometimes passes/fails)
 - Clean up playwright.config.ts (too many comments; maybe have a default and an alternate)
